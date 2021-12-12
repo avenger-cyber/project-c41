@@ -109,17 +109,17 @@ class Game{
                               fruitGroup.get(i).destroy();
                               
                                // calculate the score. 
-                                player.score = 1;
-                                player.score = player.score - 1;
+                                //player.score = 1;
+//                              player.score = player.score - 1;
                                 player.score = player.score + 1;
                                 score = score + 1;
 
                                 //Update the score in the database
 
-                                score.update()
-                                player.score.update()
-                                player.update();
-                                update();
+                              //  score.update()
+                              //  player.score.update()
+                              //  player.update();
+                              //  update();
                                     
                           }
                           
